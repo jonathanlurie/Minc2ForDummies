@@ -53,7 +53,8 @@
     //
     // While there is no particular order for "xspace", "yspace" and "zspace", it's worth to mention
     // that if the Minc2 file contains a "time" dimension, it should be the first,
-    // and therefore slowest-varying.
+    // and therefore slowest-varying. Whereas a vector_dimension should be the final,
+    // fastest-varying dimension in the image.
     "dimensions": {
       // GROUP
       "xspace": {
